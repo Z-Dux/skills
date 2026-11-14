@@ -1,0 +1,1161 @@
+{
+  "version": "1.0.0",
+  "total_skills": 144,
+  "domains": [
+    "animation"
+  ],
+  "skills": [
+    {
+      "id": "3d-spatial",
+      "name": "3D Spatial Animation",
+      "domain": "animation",
+      "category": "01-by-domain",
+      "description": "Use when working in Blender, Unity 3D, Unreal Engine, Cinema 4D, VR/AR applications, or any three-dimensional animation work.",
+      "path": "skills/animation/3d-spatial/SKILL.md"
+    },
+    {
+      "id": "absolute-beginner",
+      "name": "Your First Look at Animation Magic",
+      "domain": "animation",
+      "category": "04-by-skill-level",
+      "description": "Use when someone has never heard of animation principles, needs the simplest explanation possible, or is a complete newcomer to animation",
+      "path": "skills/animation/absolute-beginner/SKILL.md"
+    },
+    {
+      "id": "accessibility-advocate",
+      "name": "Accessibility Advocate: Inclusive Animation Design",
+      "domain": "animation",
+      "category": "03-by-role-persona",
+      "description": "Use when designing inclusive animations, addressing vestibular disorders and motion sensitivity, or ensuring animation accessibility compliance.",
+      "path": "skills/animation/accessibility-advocate/SKILL.md"
+    },
+    {
+      "id": "accessibility-issues",
+      "name": "Accessibility Issues",
+      "domain": "animation",
+      "category": "12-by-problem-type",
+      "description": "Use when animation excludes users with vestibular disorders, cognitive disabilities, or assistive technology needs",
+      "path": "skills/animation/accessibility-issues/SKILL.md"
+    },
+    {
+      "id": "accessible-motion",
+      "name": "Accessible Motion Design",
+      "domain": "animation",
+      "category": "01-by-domain",
+      "description": "Use when implementing reduced motion alternatives, vestibular-safe animations, WCAG compliance, or designing for users with motion sensitivity.",
+      "path": "skills/animation/accessible-motion/SKILL.md"
+    },
+    {
+      "id": "accordions-dropdowns",
+      "name": "Accordion & Dropdown Animation Principles",
+      "domain": "animation",
+      "category": "07-by-ui-element",
+      "description": "Use when animating accordions, collapsibles, dropdowns, or expand/collapse elements for smooth reveal transitions",
+      "path": "skills/animation/accordions-dropdowns/SKILL.md"
+    },
+    {
+      "id": "advanced",
+      "name": "Nuanced Application of Animation Principles",
+      "domain": "animation",
+      "category": "04-by-skill-level",
+      "description": "Use when someone has strong command of animation principles and seeks deeper understanding of subtle applications, edge cases, and stylistic variations",
+      "path": "skills/animation/advanced/SKILL.md"
+    },
+    {
+      "id": "after-effects",
+      "name": "After Effects Animation Principles",
+      "domain": "animation",
+      "category": "09-by-tool-framework",
+      "description": "Use when implementing Disney's 12 animation principles in Adobe After Effects",
+      "path": "skills/animation/after-effects/SKILL.md"
+    },
+    {
+      "id": "animator-traditional",
+      "name": "Traditional Animator: Classical Animation Craft",
+      "domain": "animation",
+      "category": "03-by-role-persona",
+      "description": "Use when creating hand-drawn or classical animation, working with frame-by-frame techniques, or applying Disney principles in their original artistic context.",
+      "path": "skills/animation/animator-traditional/SKILL.md"
+    },
+    {
+      "id": "anime-js",
+      "name": "Anime.js Animation Principles",
+      "domain": "animation",
+      "category": "09-by-tool-framework",
+      "description": "Use when implementing Disney's 12 animation principles with Anime.js library",
+      "path": "skills/animation/anime-js/SKILL.md"
+    },
+    {
+      "id": "anticipation-mastery",
+      "name": "Anticipation Mastery",
+      "domain": "animation",
+      "category": "11-by-principle-focus",
+      "description": "Use when designing action sequences, user interactions, state transitions, or any motion that needs telegraphing to feel intentional rather than sudden.",
+      "path": "skills/animation/anticipation-mastery/SKILL.md"
+    },
+    {
+      "id": "anticipation-payoff",
+      "name": "Anticipation & Payoff",
+      "domain": "animation",
+      "category": "02-by-thinking-style",
+      "description": "Use when designing action sequences, gags, reveals, or any motion that needs setup before delivery\u2014preparing audiences for what's coming and maximizing impact.",
+      "path": "skills/animation/anticipation-payoff/SKILL.md"
+    },
+    {
+      "id": "appeal-mastery",
+      "name": "Appeal Mastery",
+      "domain": "animation",
+      "category": "11-by-principle-focus",
+      "description": "Use when designing character personalities, creating memorable motion signatures, ensuring animations feel polished, or making visual experiences that audiences want to watch.",
+      "path": "skills/animation/appeal-mastery/SKILL.md"
+    },
+    {
+      "id": "arc-mastery",
+      "name": "Arc Mastery",
+      "domain": "animation",
+      "category": "11-by-principle-focus",
+      "description": "Use when designing motion paths, character movement trajectories, gesture animations, or any motion that should feel natural rather than robotic.",
+      "path": "skills/animation/arc-mastery/SKILL.md"
+    },
+    {
+      "id": "attention-direction",
+      "name": "Attention Direction",
+      "domain": "animation",
+      "category": "02-by-thinking-style",
+      "description": "Use when controlling where the audience looks\u2014composing shots, choreographing action, revealing information, or any situation requiring clear visual hierarchy and focus management.",
+      "path": "skills/animation/attention-direction/SKILL.md"
+    },
+    {
+      "id": "attention-grabbers",
+      "name": "Attention-Grabbing Animations",
+      "domain": "animation",
+      "category": "05-by-animation-type",
+      "description": "Use when drawing user focus - notification badges, new feature highlights, error callouts, promotional banners, or any animation meant to attract attention.",
+      "path": "skills/animation/attention-grabbers/SKILL.md"
+    },
+    {
+      "id": "attention-management",
+      "name": "Attention Management",
+      "domain": "animation",
+      "category": "12-by-problem-type",
+      "description": "Use when wrong elements get attention, important content is missed, or visual hierarchy is broken by animation",
+      "path": "skills/animation/attention-management/SKILL.md"
+    },
+    {
+      "id": "brand-consistency",
+      "name": "Brand Consistency",
+      "domain": "animation",
+      "category": "12-by-problem-type",
+      "description": "Use when animation doesn't match brand personality, feels generic, or clashes with design language",
+      "path": "skills/animation/brand-consistency/SKILL.md"
+    },
+    {
+      "id": "brand-marketing",
+      "name": "Brand Marketing Animation",
+      "domain": "animation",
+      "category": "01-by-domain",
+      "description": "Use when creating commercial animations, advertising motion, brand identity animation, logo reveals, or marketing video content.",
+      "path": "skills/animation/brand-marketing/SKILL.md"
+    },
+    {
+      "id": "brand-strategist",
+      "name": "Brand Strategist: Motion as Brand Expression",
+      "domain": "animation",
+      "category": "03-by-role-persona",
+      "description": "Use when defining brand motion identity, creating animation guidelines for brand expression, or aligning animation with brand personality.",
+      "path": "skills/animation/brand-strategist/SKILL.md"
+    },
+    {
+      "id": "buttons-ctas",
+      "name": "Button & CTA Animation Principles",
+      "domain": "animation",
+      "category": "07-by-ui-element",
+      "description": "Use when animating buttons, CTAs, or clickable action elements to create satisfying, responsive interactions",
+      "path": "skills/animation/buttons-ctas/SKILL.md"
+    },
+    {
+      "id": "calm-relaxation",
+      "name": "Calm & Relaxation Animation",
+      "domain": "animation",
+      "category": "06-by-emotional-outcome",
+      "description": "Use when creating animations that soothe users, reduce anxiety, or create peaceful, meditative experiences.",
+      "path": "skills/animation/calm-relaxation/SKILL.md"
+    },
+    {
+      "id": "cards-containers",
+      "name": "Card & Container Animation Principles",
+      "domain": "animation",
+      "category": "07-by-ui-element",
+      "description": "Use when animating cards, panels, tiles, or container elements to create depth and interactivity",
+      "path": "skills/animation/cards-containers/SKILL.md"
+    },
+    {
+      "id": "carousels-sliders",
+      "name": "Carousel & Slider Animation Principles",
+      "domain": "animation",
+      "category": "07-by-ui-element",
+      "description": "Use when animating carousels, sliders, image galleries, or horizontally scrolling content for smooth navigation",
+      "path": "skills/animation/carousels-sliders/SKILL.md"
+    },
+    {
+      "id": "character-appeal",
+      "name": "Character Appeal",
+      "domain": "animation",
+      "category": "02-by-thinking-style",
+      "description": "Use when creating or animating characters that need to connect with audiences\u2014hero protagonists, memorable villains, lovable sidekicks, or any figure that must have personality and presence.",
+      "path": "skills/animation/character-appeal/SKILL.md"
+    },
+    {
+      "id": "comfort-safety",
+      "name": "Comfort & Safety Animation",
+      "domain": "animation",
+      "category": "06-by-emotional-outcome",
+      "description": "Use when creating animations that reassure users, reduce anxiety, or communicate protection and security.",
+      "path": "skills/animation/comfort-safety/SKILL.md"
+    },
+    {
+      "id": "continuous-infinite",
+      "name": "Continuous Animations (Infinite)",
+      "domain": "animation",
+      "category": "10-by-time-scale",
+      "description": "Use when building ongoing loop animations - loading states, ambient motion, background effects that run indefinitely without user fatigue",
+      "path": "skills/animation/continuous-infinite/SKILL.md"
+    },
+    {
+      "id": "continuous-loops",
+      "name": "Continuous Loop Animations",
+      "domain": "animation",
+      "category": "05-by-animation-type",
+      "description": "Use when creating ongoing animations - loading spinners, pulsing indicators, ambient motion, background effects, or any animation that repeats indefinitely.",
+      "path": "skills/animation/continuous-loops/SKILL.md"
+    },
+    {
+      "id": "creative-director",
+      "name": "Creative Director: Animation Vision & Leadership",
+      "domain": "animation",
+      "category": "03-by-role-persona",
+      "description": "Use when overseeing animation vision, setting creative direction for motion, or guiding teams on animation quality and consistency.",
+      "path": "skills/animation/creative-director/SKILL.md"
+    },
+    {
+      "id": "css-native",
+      "name": "CSS Native Animation Principles",
+      "domain": "animation",
+      "category": "09-by-tool-framework",
+      "description": "Use when implementing Disney's 12 animation principles with pure CSS animations and transitions",
+      "path": "skills/animation/css-native/SKILL.md"
+    },
+    {
+      "id": "data-visualization",
+      "name": "Data Visualization Animation",
+      "domain": "animation",
+      "category": "01-by-domain",
+      "description": "Use when animating charts, graphs, dashboards, data transitions, or any information visualization work.",
+      "path": "skills/animation/data-visualization/SKILL.md"
+    },
+    {
+      "id": "deep-dive",
+      "name": "Complete Animation Principles Reference",
+      "domain": "animation",
+      "category": "04-by-skill-level",
+      "description": "Use when someone needs comprehensive reference material on animation principles with technical depth and extensive context",
+      "path": "skills/animation/deep-dive/SKILL.md"
+    },
+    {
+      "id": "deliberate-1200-2000ms",
+      "name": "Deliberate Animations (1200-2000ms)",
+      "domain": "animation",
+      "category": "10-by-time-scale",
+      "description": "Use when building slow intentional animations between 1200-2000ms - app intros, loading sequences, storytelling moments that create emotional resonance",
+      "path": "skills/animation/deliberate-1200-2000ms/SKILL.md"
+    },
+    {
+      "id": "dramatic-2000ms-plus",
+      "name": "Dramatic Animations (2000ms+)",
+      "domain": "animation",
+      "category": "10-by-time-scale",
+      "description": "Use when building extended animation sequences over 2000ms - cinematic intros, story sequences, premium experiences where animation IS the product",
+      "path": "skills/animation/dramatic-2000ms-plus/SKILL.md"
+    },
+    {
+      "id": "e-commerce-retail",
+      "name": "E-Commerce & Retail Animation Principles",
+      "domain": "animation",
+      "category": "08-by-industry",
+      "description": "Use when designing animations for shopping apps, product catalogs, checkout flows, or retail experiences",
+      "path": "skills/animation/e-commerce-retail/SKILL.md"
+    },
+    {
+      "id": "education-learning",
+      "name": "Education & Learning Animation Principles",
+      "domain": "animation",
+      "category": "08-by-industry",
+      "description": "Use when designing animations for educational platforms, e-learning, tutoring apps, or skill-building experiences",
+      "path": "skills/animation/education-learning/SKILL.md"
+    },
+    {
+      "id": "educator-teacher",
+      "name": "Educator: Teaching Through Animation",
+      "domain": "animation",
+      "category": "03-by-role-persona",
+      "description": "Use when creating educational content, explaining concepts through animation, or when teaching animation principles to students.",
+      "path": "skills/animation/educator-teacher/SKILL.md"
+    },
+    {
+      "id": "elegance-sophistication",
+      "name": "Elegance & Sophistication Animation",
+      "domain": "animation",
+      "category": "06-by-emotional-outcome",
+      "description": "Use when creating animations that convey luxury, refinement, or premium brand experiences.",
+      "path": "skills/animation/elegance-sophistication/SKILL.md"
+    },
+    {
+      "id": "emotional-disconnect",
+      "name": "Emotional Disconnect",
+      "domain": "animation",
+      "category": "12-by-problem-type",
+      "description": "Use when animation feels wrong, creates unintended emotional response, or mismatches context",
+      "path": "skills/animation/emotional-disconnect/SKILL.md"
+    },
+    {
+      "id": "emotional-narrative",
+      "name": "Emotional Narrative",
+      "domain": "animation",
+      "category": "02-by-thinking-style",
+      "description": "Use when animation needs to convey feeling, tell a story, or connect emotionally\u2014character moments, dramatic beats, or any motion that should make the audience care.",
+      "path": "skills/animation/emotional-narrative/SKILL.md"
+    },
+    {
+      "id": "enterprise-b2b",
+      "name": "Enterprise & B2B Animation Principles",
+      "domain": "animation",
+      "category": "08-by-industry",
+      "description": "Use when designing animations for enterprise software, B2B platforms, admin dashboards, or corporate applications",
+      "path": "skills/animation/enterprise-b2b/SKILL.md"
+    },
+    {
+      "id": "entrance-animations",
+      "name": "Entrance Animations",
+      "domain": "animation",
+      "category": "05-by-animation-type",
+      "description": "Use when elements need to appear on screen - page loads, modals opening, items being added, content reveals, or any \"coming into view\" animation.",
+      "path": "skills/animation/entrance-animations/SKILL.md"
+    },
+    {
+      "id": "exaggerated-clarity",
+      "name": "Exaggerated Clarity",
+      "domain": "animation",
+      "category": "02-by-thinking-style",
+      "description": "Use when motion needs to read clearly and powerfully\u2014broad comedy, action highlights, important story beats, or any moment that must unmistakably communicate to the audience.",
+      "path": "skills/animation/exaggerated-clarity/SKILL.md"
+    },
+    {
+      "id": "exaggeration-mastery",
+      "name": "Exaggeration Mastery",
+      "domain": "animation",
+      "category": "11-by-principle-focus",
+      "description": "Use when determining how far to push motion beyond realism, calibrating animation intensity for context, or making key moments register with audiences.",
+      "path": "skills/animation/exaggeration-mastery/SKILL.md"
+    },
+    {
+      "id": "excitement-energy",
+      "name": "Excitement & Energy Animation",
+      "domain": "animation",
+      "category": "06-by-emotional-outcome",
+      "description": "Use when creating animations that generate enthusiasm, build anticipation, or create high-energy experiences.",
+      "path": "skills/animation/excitement-energy/SKILL.md"
+    },
+    {
+      "id": "exit-animations",
+      "name": "Exit Animations",
+      "domain": "animation",
+      "category": "05-by-animation-type",
+      "description": "Use when elements need to leave the screen - closing modals, dismissing notifications, removing items, page transitions out, or any \"leaving view\" animation.",
+      "path": "skills/animation/exit-animations/SKILL.md"
+    },
+    {
+      "id": "expert",
+      "name": "Transcending the Principles",
+      "domain": "animation",
+      "category": "04-by-skill-level",
+      "description": "Use when someone has mastery of animation principles and wants to explore intentional rule-breaking, stylistic innovation, and pushing creative boundaries",
+      "path": "skills/animation/expert/SKILL.md"
+    },
+    {
+      "id": "feedback-indicators",
+      "name": "Feedback Indicator Animations",
+      "domain": "animation",
+      "category": "05-by-animation-type",
+      "description": "Use when confirming user actions - success checkmarks, error alerts, form validation, save confirmations, or any animation acknowledging what the user did.",
+      "path": "skills/animation/feedback-indicators/SKILL.md"
+    },
+    {
+      "id": "figma-prototyping",
+      "name": "Figma Prototyping Animation Principles",
+      "domain": "animation",
+      "category": "09-by-tool-framework",
+      "description": "Use when implementing Disney's 12 animation principles in Figma prototypes and Smart Animate",
+      "path": "skills/animation/figma-prototyping/SKILL.md"
+    },
+    {
+      "id": "filmmaker",
+      "name": "Filmmaker: Cinematic Animation Craft",
+      "domain": "animation",
+      "category": "03-by-role-persona",
+      "description": "Use when creating cinematic sequences, narrative animations, or when applying animation principles to video storytelling and visual narrative.",
+      "path": "skills/animation/filmmaker/SKILL.md"
+    },
+    {
+      "id": "fintech-banking",
+      "name": "Fintech & Banking Animation Principles",
+      "domain": "animation",
+      "category": "08-by-industry",
+      "description": "Use when designing animations for banking apps, payment systems, investment platforms, or financial dashboards",
+      "path": "skills/animation/fintech-banking/SKILL.md"
+    },
+    {
+      "id": "fitness-wellness",
+      "name": "Fitness & Wellness Animation Principles",
+      "domain": "animation",
+      "category": "08-by-industry",
+      "description": "Use when designing animations for fitness apps, wellness platforms, workout trackers, or meditation experiences",
+      "path": "skills/animation/fitness-wellness/SKILL.md"
+    },
+    {
+      "id": "follow-through-overlapping",
+      "name": "Follow Through & Overlapping Action Mastery",
+      "domain": "animation",
+      "category": "11-by-principle-focus",
+      "description": "Use when animating multi-part objects, character appendages, fabric, hair, or any motion requiring realistic drag, momentum, and settling behavior.",
+      "path": "skills/animation/follow-through-overlapping/SKILL.md"
+    },
+    {
+      "id": "forms-inputs",
+      "name": "Form & Input Animation Principles",
+      "domain": "animation",
+      "category": "07-by-ui-element",
+      "description": "Use when animating form fields, inputs, textareas, selects, or interactive form elements to improve usability and feedback",
+      "path": "skills/animation/forms-inputs/SKILL.md"
+    },
+    {
+      "id": "framer-motion",
+      "name": "Framer Motion Animation Principles",
+      "domain": "animation",
+      "category": "09-by-tool-framework",
+      "description": "Use when implementing Disney's 12 animation principles with Framer Motion in React applications",
+      "path": "skills/animation/framer-motion/SKILL.md"
+    },
+    {
+      "id": "friendliness-approachability",
+      "name": "Friendliness & Approachability Animation",
+      "domain": "animation",
+      "category": "06-by-emotional-outcome",
+      "description": "Use when creating animations that feel warm, welcoming, and make users feel comfortable engaging.",
+      "path": "skills/animation/friendliness-approachability/SKILL.md"
+    },
+    {
+      "id": "frontend-developer",
+      "name": "Frontend Developer: Animation Implementation Guide",
+      "domain": "animation",
+      "category": "03-by-role-persona",
+      "description": "Use when implementing animations in code, building UI transitions, or when a developer needs practical animation guidance for web/mobile applications.",
+      "path": "skills/animation/frontend-developer/SKILL.md"
+    },
+    {
+      "id": "game-designer",
+      "name": "Game Designer: Animation for Game Feel",
+      "domain": "animation",
+      "category": "03-by-role-persona",
+      "description": "Use when designing game feel, player feedback systems, or when creating animations that enhance gameplay and player satisfaction.",
+      "path": "skills/animation/game-designer/SKILL.md"
+    },
+    {
+      "id": "game-development",
+      "name": "Game Development Animation",
+      "domain": "animation",
+      "category": "01-by-domain",
+      "description": "Use when implementing game animations, player feedback, character movement, or interactive entertainment in Unity, Unreal, or other game engines.",
+      "path": "skills/animation/game-development/SKILL.md"
+    },
+    {
+      "id": "gaming-entertainment",
+      "name": "Gaming & Entertainment Animation Principles",
+      "domain": "animation",
+      "category": "08-by-industry",
+      "description": "Use when designing animations for gaming apps, streaming platforms, entertainment portals, or interactive media",
+      "path": "skills/animation/gaming-entertainment/SKILL.md"
+    },
+    {
+      "id": "gesture-responses",
+      "name": "Gesture Response Animations",
+      "domain": "animation",
+      "category": "05-by-animation-type",
+      "description": "Use when responding to touch or click interactions - button presses, drag feedback, swipe responses, tap ripples, or any direct manipulation animation.",
+      "path": "skills/animation/gesture-responses/SKILL.md"
+    },
+    {
+      "id": "gsap-greensock",
+      "name": "GSAP Animation Principles",
+      "domain": "animation",
+      "category": "09-by-tool-framework",
+      "description": "Use when implementing Disney's 12 animation principles with GSAP (GreenSock Animation Platform)",
+      "path": "skills/animation/gsap-greensock/SKILL.md"
+    },
+    {
+      "id": "healthcare-medical",
+      "name": "Healthcare & Medical Animation Principles",
+      "domain": "animation",
+      "category": "08-by-industry",
+      "description": "Use when designing animations for medical apps, patient portals, telehealth, or health tracking interfaces",
+      "path": "skills/animation/healthcare-medical/SKILL.md"
+    },
+    {
+      "id": "hover-interactions",
+      "name": "Hover Interaction Animations",
+      "domain": "animation",
+      "category": "05-by-animation-type",
+      "description": "Use when creating mouse hover effects - button highlights, card lifts, link underlines, image zooms, or any pointer-triggered animation.",
+      "path": "skills/animation/hover-interactions/SKILL.md"
+    },
+    {
+      "id": "icons-badges",
+      "name": "Icon & Badge Animation Principles",
+      "domain": "animation",
+      "category": "07-by-ui-element",
+      "description": "Use when animating icons, badges, avatars, status indicators, or small visual elements to add personality and feedback",
+      "path": "skills/animation/icons-badges/SKILL.md"
+    },
+    {
+      "id": "implementation-debugging",
+      "name": "Implementation Debugging",
+      "domain": "animation",
+      "category": "12-by-problem-type",
+      "description": "Use when animation doesn't work as expected, has bugs, or behaves inconsistently",
+      "path": "skills/animation/implementation-debugging/SKILL.md"
+    },
+    {
+      "id": "instant-0-100ms",
+      "name": "Instant Animations (0-100ms)",
+      "domain": "animation",
+      "category": "10-by-time-scale",
+      "description": "Use when building instantaneous UI feedback under 100ms - button presses, toggles, state changes that feel immediate and responsive",
+      "path": "skills/animation/instant-0-100ms/SKILL.md"
+    },
+    {
+      "id": "intermediate",
+      "name": "Combining Principles for Stronger Animation",
+      "domain": "animation",
+      "category": "04-by-skill-level",
+      "description": "Use when someone has working knowledge of animation principles and needs guidance on combining them effectively in more complex animations",
+      "path": "skills/animation/intermediate/SKILL.md"
+    },
+    {
+      "id": "joy-delight",
+      "name": "Joy & Delight Animation",
+      "domain": "animation",
+      "category": "06-by-emotional-outcome",
+      "description": "Use when creating animations that evoke happiness, surprise, or delightful moments in the user experience.",
+      "path": "skills/animation/joy-delight/SKILL.md"
+    },
+    {
+      "id": "large-500-800ms",
+      "name": "Large Animations (500-800ms)",
+      "domain": "animation",
+      "category": "10-by-time-scale",
+      "description": "Use when building larger movement animations between 500-800ms - hero transitions, complex reveals, animations that tell a story and deserve attention",
+      "path": "skills/animation/large-500-800ms/SKILL.md"
+    },
+    {
+      "id": "lists-grids",
+      "name": "List & Grid Animation Principles",
+      "domain": "animation",
+      "category": "07-by-ui-element",
+      "description": "Use when animating lists, grids, tables, or collections of items to create smooth ordering, filtering, and loading states",
+      "path": "skills/animation/lists-grids/SKILL.md"
+    },
+    {
+      "id": "loaders-spinners",
+      "name": "Loader & Spinner Animation Principles",
+      "domain": "animation",
+      "category": "07-by-ui-element",
+      "description": "Use when creating loading indicators, spinners, progress bars, or skeleton screens to communicate system status",
+      "path": "skills/animation/loaders-spinners/SKILL.md"
+    },
+    {
+      "id": "loading-states",
+      "name": "Loading State Animations",
+      "domain": "animation",
+      "category": "05-by-animation-type",
+      "description": "Use when indicating progress or waiting - spinners, progress bars, skeleton screens, shimmer effects, or any animation showing the system is working.",
+      "path": "skills/animation/loading-states/SKILL.md"
+    },
+    {
+      "id": "lottie-bodymovin",
+      "name": "Lottie Animation Principles",
+      "domain": "animation",
+      "category": "09-by-tool-framework",
+      "description": "Use when implementing Disney's 12 animation principles with Lottie animations exported from After Effects",
+      "path": "skills/animation/lottie-bodymovin/SKILL.md"
+    },
+    {
+      "id": "master",
+      "name": "The Philosophy Behind the Principles",
+      "domain": "animation",
+      "category": "04-by-skill-level",
+      "description": "Use when someone seeks the philosophical foundation of animation principles, wants to understand why they work, or is at a teaching/mentorship level",
+      "path": "skills/animation/master/SKILL.md"
+    },
+    {
+      "id": "media-publishing",
+      "name": "Media & Publishing Animation Principles",
+      "domain": "animation",
+      "category": "08-by-industry",
+      "description": "Use when designing animations for news sites, content platforms, publishing apps, or media consumption experiences",
+      "path": "skills/animation/media-publishing/SKILL.md"
+    },
+    {
+      "id": "medium-300-500ms",
+      "name": "Medium Animations (300-500ms)",
+      "domain": "animation",
+      "category": "10-by-time-scale",
+      "description": "Use when building standard animations between 300-500ms - page transitions, significant UI changes, animated illustrations that need clear communication",
+      "path": "skills/animation/medium-300-500ms/SKILL.md"
+    },
+    {
+      "id": "micro-100-200ms",
+      "name": "Micro Animations (100-200ms)",
+      "domain": "animation",
+      "category": "10-by-time-scale",
+      "description": "Use when building micro-interactions between 100-200ms - tooltips appearing, dropdown opens, small feedback animations that feel quick but perceptible",
+      "path": "skills/animation/micro-100-200ms/SKILL.md"
+    },
+    {
+      "id": "micro-interactions",
+      "name": "Micro-interaction Animation",
+      "domain": "animation",
+      "category": "01-by-domain",
+      "description": "Use when designing small UI feedback moments like button states, toggles, form validation, loading indicators, or notification badges.",
+      "path": "skills/animation/micro-interactions/SKILL.md"
+    },
+    {
+      "id": "mobile-touch",
+      "name": "Mobile Touch Animation",
+      "domain": "animation",
+      "category": "01-by-domain",
+      "description": "Use when designing iOS/Android gestures, haptic feedback, touch interactions, or native mobile animations.",
+      "path": "skills/animation/mobile-touch/SKILL.md"
+    },
+    {
+      "id": "modals-dialogs",
+      "name": "Modal & Dialog Animation Principles",
+      "domain": "animation",
+      "category": "07-by-ui-element",
+      "description": "Use when animating modals, dialogs, popovers, or overlay content to create smooth entrances and exits",
+      "path": "skills/animation/modals-dialogs/SKILL.md"
+    },
+    {
+      "id": "motion-designer",
+      "name": "Motion Designer: Visual Animation Craft",
+      "domain": "animation",
+      "category": "03-by-role-persona",
+      "description": "Use when designing visual motion systems, creating animation specifications, or when a designer needs guidance on crafting beautiful, meaningful movement.",
+      "path": "skills/animation/motion-designer/SKILL.md"
+    },
+    {
+      "id": "motion-one",
+      "name": "Motion One Animation Principles",
+      "domain": "animation",
+      "category": "09-by-tool-framework",
+      "description": "Use when implementing Disney's 12 animation principles with Motion One (modern, lightweight animation library)",
+      "path": "skills/animation/motion-one/SKILL.md"
+    },
+    {
+      "id": "motion-sickness",
+      "name": "Motion Sickness Prevention",
+      "domain": "animation",
+      "category": "12-by-problem-type",
+      "description": "Use when animation causes dizziness, nausea, disorientation, or vestibular discomfort",
+      "path": "skills/animation/motion-sickness/SKILL.md"
+    },
+    {
+      "id": "naturalistic-motion",
+      "name": "Naturalistic Motion",
+      "domain": "animation",
+      "category": "02-by-thinking-style",
+      "description": "Use when animation should feel organic and lifelike\u2014creature animation, realistic characters, nature elements, or any motion that needs to breathe with authentic living quality.",
+      "path": "skills/animation/naturalistic-motion/SKILL.md"
+    },
+    {
+      "id": "navigation-menus",
+      "name": "Navigation & Menu Animation Principles",
+      "domain": "animation",
+      "category": "07-by-ui-element",
+      "description": "Use when animating navigation bars, menus, sidebars, or wayfinding elements to create smooth, intuitive transitions",
+      "path": "skills/animation/navigation-menus/SKILL.md"
+    },
+    {
+      "id": "notifications-toasts",
+      "name": "Notification & Toast Animation Principles",
+      "domain": "animation",
+      "category": "07-by-ui-element",
+      "description": "Use when animating notifications, toasts, alerts, snackbars, or system messages to grab attention appropriately",
+      "path": "skills/animation/notifications-toasts/SKILL.md"
+    },
+    {
+      "id": "novice",
+      "name": "Building Your Animation Foundation",
+      "domain": "animation",
+      "category": "04-by-skill-level",
+      "description": "Use when someone has basic awareness of animation principles and wants to start applying them in simple projects",
+      "path": "skills/animation/novice/SKILL.md"
+    },
+    {
+      "id": "orchestrated-sequences",
+      "name": "Orchestrated Sequences",
+      "domain": "animation",
+      "category": "10-by-time-scale",
+      "description": "Use when building multi-part animation sequences - staggered reveals, choreographed UI, coordinated motion where multiple elements work together",
+      "path": "skills/animation/orchestrated-sequences/SKILL.md"
+    },
+    {
+      "id": "page-transitions",
+      "name": "Page Transition Animation",
+      "domain": "animation",
+      "category": "01-by-domain",
+      "description": "Use when implementing route changes, view transitions, modal opens/closes, or navigation animation in web and mobile applications.",
+      "path": "skills/animation/page-transitions/SKILL.md"
+    },
+    {
+      "id": "performance-optimization",
+      "name": "Performance Optimization",
+      "domain": "animation",
+      "category": "12-by-problem-type",
+      "description": "Use when animation runs slow, janky, or causes frame drops",
+      "path": "skills/animation/performance-optimization/SKILL.md"
+    },
+    {
+      "id": "physics-intuition",
+      "name": "Physics Intuition",
+      "domain": "animation",
+      "category": "02-by-thinking-style",
+      "description": "Use when motion needs to feel physically grounded\u2014objects falling, characters jumping, things colliding, or any element that should obey believable weight and momentum.",
+      "path": "skills/animation/physics-intuition/SKILL.md"
+    },
+    {
+      "id": "playfulness-fun",
+      "name": "Playfulness & Fun Animation",
+      "domain": "animation",
+      "category": "06-by-emotional-outcome",
+      "description": "Use when creating animations that entertain, engage with humor, or create lighthearted interactive experiences.",
+      "path": "skills/animation/playfulness-fun/SKILL.md"
+    },
+    {
+      "id": "popmotion",
+      "name": "Popmotion Animation Principles",
+      "domain": "animation",
+      "category": "09-by-tool-framework",
+      "description": "Use when implementing Disney's 12 animation principles with Popmotion's functional animation library",
+      "path": "skills/animation/popmotion/SKILL.md"
+    },
+    {
+      "id": "power-confidence",
+      "name": "Power & Confidence Animation",
+      "domain": "animation",
+      "category": "06-by-emotional-outcome",
+      "description": "Use when creating animations that convey strength, authority, or bold confidence in brand and product.",
+      "path": "skills/animation/power-confidence/SKILL.md"
+    },
+    {
+      "id": "presentations",
+      "name": "Presentation Animation",
+      "domain": "animation",
+      "category": "01-by-domain",
+      "description": "Use when creating Keynote, PowerPoint, Google Slides animations, or any presentation motion design work.",
+      "path": "skills/animation/presentations/SKILL.md"
+    },
+    {
+      "id": "problem-diagnosis",
+      "name": "Problem Diagnosis",
+      "domain": "animation",
+      "category": "02-by-thinking-style",
+      "description": "Use when animation \"feels wrong\" but you can't pinpoint why\u2014debugging floaty movement, stiff characters, unclear action, or any motion that isn't working and needs systematic troubleshooting.",
+      "path": "skills/animation/problem-diagnosis/SKILL.md"
+    },
+    {
+      "id": "product-manager",
+      "name": "Product Manager: Animation ROI & Strategy",
+      "domain": "animation",
+      "category": "03-by-role-persona",
+      "description": "Use when prioritizing animation features, building motion roadmaps, or when a PM needs to understand the business value of animation principles.",
+      "path": "skills/animation/product-manager/SKILL.md"
+    },
+    {
+      "id": "professionalism-credibility",
+      "name": "Professionalism & Credibility Animation",
+      "domain": "animation",
+      "category": "06-by-emotional-outcome",
+      "description": "Use when creating animations for business contexts that require seriousness, competence, and trustworthy presentation.",
+      "path": "skills/animation/professionalism-credibility/SKILL.md"
+    },
+    {
+      "id": "quick-start",
+      "name": "12 Animation Principles in 5 Minutes",
+      "domain": "animation",
+      "category": "04-by-skill-level",
+      "description": "Use when someone needs a rapid overview of all 12 animation principles in under 5 minutes",
+      "path": "skills/animation/quick-start/SKILL.md"
+    },
+    {
+      "id": "react-spring",
+      "name": "React Spring Animation Principles",
+      "domain": "animation",
+      "category": "09-by-tool-framework",
+      "description": "Use when implementing Disney's 12 animation principles with React Spring's physics-based animations",
+      "path": "skills/animation/react-spring/SKILL.md"
+    },
+    {
+      "id": "refresher",
+      "name": "Quick Principles Refresher",
+      "domain": "animation",
+      "category": "04-by-skill-level",
+      "description": "Use when an experienced animator needs a quick reminder of the 12 principles without basic explanations",
+      "path": "skills/animation/refresher/SKILL.md"
+    },
+    {
+      "id": "responsive-adaptive",
+      "name": "Responsive & Adaptive Timing",
+      "domain": "animation",
+      "category": "10-by-time-scale",
+      "description": "Use when building context-dependent animations - duration that changes based on device, distance, user preference, or interaction context",
+      "path": "skills/animation/responsive-adaptive/SKILL.md"
+    },
+    {
+      "id": "rhythm-pacing",
+      "name": "Rhythm & Pacing",
+      "domain": "animation",
+      "category": "02-by-thinking-style",
+      "description": "Use when animation needs musical flow\u2014dance sequences, action choreography, comedic timing, scene pacing, or any motion that should feel rhythmic and well-composed over time.",
+      "path": "skills/animation/rhythm-pacing/SKILL.md"
+    },
+    {
+      "id": "rive-animations",
+      "name": "Rive Animation Principles",
+      "domain": "animation",
+      "category": "09-by-tool-framework",
+      "description": "Use when implementing Disney's 12 animation principles with Rive interactive animations",
+      "path": "skills/animation/rive-animations/SKILL.md"
+    },
+    {
+      "id": "saas-productivity",
+      "name": "SaaS & Productivity Animation Principles",
+      "domain": "animation",
+      "category": "08-by-industry",
+      "description": "Use when designing animations for business tools, project management, collaboration software, or productivity apps",
+      "path": "skills/animation/saas-productivity/SKILL.md"
+    },
+    {
+      "id": "scroll-animations",
+      "name": "Scroll Animations",
+      "domain": "animation",
+      "category": "05-by-animation-type",
+      "description": "Use when triggering animations on scroll - reveal effects, parallax, sticky headers, progress indicators, or any scroll-linked motion.",
+      "path": "skills/animation/scroll-animations/SKILL.md"
+    },
+    {
+      "id": "secondary-action-mastery",
+      "name": "Secondary Action Mastery",
+      "domain": "animation",
+      "category": "11-by-principle-focus",
+      "description": "Use when enriching primary animations, adding supporting details, creating depth in motion, or making scenes feel alive without distracting from main action.",
+      "path": "skills/animation/secondary-action-mastery/SKILL.md"
+    },
+    {
+      "id": "slow-800-1200ms",
+      "name": "Slow Animations (800-1200ms)",
+      "domain": "animation",
+      "category": "10-by-time-scale",
+      "description": "Use when building deliberate motion between 800-1200ms - dramatic reveals, loading sequences, storytelling moments where users should pause and absorb",
+      "path": "skills/animation/slow-800-1200ms/SKILL.md"
+    },
+    {
+      "id": "slow-in-out-mastery",
+      "name": "Slow In / Slow Out Mastery",
+      "domain": "animation",
+      "category": "11-by-principle-focus",
+      "description": "Use when designing easing curves, controlling motion pacing, creating natural acceleration/deceleration, or making movements feel physically grounded.",
+      "path": "skills/animation/slow-in-out-mastery/SKILL.md"
+    },
+    {
+      "id": "small-200-300ms",
+      "name": "Small Transitions (200-300ms)",
+      "domain": "animation",
+      "category": "10-by-time-scale",
+      "description": "Use when building small transitions between 200-300ms - modal appearances, card expansions, navigation transitions that users consciously perceive",
+      "path": "skills/animation/small-200-300ms/SKILL.md"
+    },
+    {
+      "id": "social-media",
+      "name": "Social Media Animation Principles",
+      "domain": "animation",
+      "category": "08-by-industry",
+      "description": "Use when designing animations for social platforms, messaging apps, content sharing, or community features",
+      "path": "skills/animation/social-media/SKILL.md"
+    },
+    {
+      "id": "solid-drawing-mastery",
+      "name": "Solid Drawing Mastery",
+      "domain": "animation",
+      "category": "11-by-principle-focus",
+      "description": "Use when creating motion that needs dimensional grounding, designing transforms that maintain object integrity, or ensuring animations feel structurally sound.",
+      "path": "skills/animation/solid-drawing-mastery/SKILL.md"
+    },
+    {
+      "id": "spatial-thinking",
+      "name": "Spatial Thinking",
+      "domain": "animation",
+      "category": "02-by-thinking-style",
+      "description": "Use when animation involves depth, perspective, volume, or three-dimensional awareness\u2014camera moves, character positioning, environmental interaction, or maintaining consistent spatial relationships.",
+      "path": "skills/animation/spatial-thinking/SKILL.md"
+    },
+    {
+      "id": "squash-stretch-mastery",
+      "name": "Squash & Stretch Mastery",
+      "domain": "animation",
+      "category": "11-by-principle-focus",
+      "description": "Use when implementing deformation effects, bounce animations, impact responses, or any motion requiring organic elasticity and weight expression.",
+      "path": "skills/animation/squash-stretch-mastery/SKILL.md"
+    },
+    {
+      "id": "staging-mastery",
+      "name": "Staging Mastery",
+      "domain": "animation",
+      "category": "11-by-principle-focus",
+      "description": "Use when composing scenes, designing layouts, directing user attention, or ensuring a single clear idea is communicated at any given moment.",
+      "path": "skills/animation/staging-mastery/SKILL.md"
+    },
+    {
+      "id": "state-changes",
+      "name": "State Change Animations",
+      "domain": "animation",
+      "category": "05-by-animation-type",
+      "description": "Use when elements transform in place - toggle switches, expanding accordions, checkbox animations, button states, or any transformation without entering/exiting.",
+      "path": "skills/animation/state-changes/SKILL.md"
+    },
+    {
+      "id": "straight-ahead-pose-mastery",
+      "name": "Straight Ahead vs Pose to Pose Mastery",
+      "domain": "animation",
+      "category": "11-by-principle-focus",
+      "description": "Use when planning animation workflows, deciding between spontaneous vs controlled approaches, or balancing creative freedom with structural precision.",
+      "path": "skills/animation/straight-ahead-pose-mastery/SKILL.md"
+    },
+    {
+      "id": "teaching-others",
+      "name": "Teaching the 12 Principles Effectively",
+      "domain": "animation",
+      "category": "04-by-skill-level",
+      "description": "Use when someone needs to explain animation principles to students, mentees, or team members at various skill levels",
+      "path": "skills/animation/teaching-others/SKILL.md"
+    },
+    {
+      "id": "technical-constraints",
+      "name": "Technical Constraints",
+      "domain": "animation",
+      "category": "12-by-problem-type",
+      "description": "Use when animation is limited by browser support, platform capabilities, or technical requirements",
+      "path": "skills/animation/technical-constraints/SKILL.md"
+    },
+    {
+      "id": "timing-calibration",
+      "name": "Timing Calibration",
+      "domain": "animation",
+      "category": "12-by-problem-type",
+      "description": "Use when animation speed feels wrong\u2014too fast, too slow, or inconsistent",
+      "path": "skills/animation/timing-calibration/SKILL.md"
+    },
+    {
+      "id": "timing-mastery",
+      "name": "Timing Mastery",
+      "domain": "animation",
+      "category": "02-by-thinking-style",
+      "description": "Use when determining how fast or slow motion should be\u2014pacing action sequences, dramatic pauses, comedic beats, or any situation where the duration of movement matters.",
+      "path": "skills/animation/timing-mastery/SKILL.md"
+    },
+    {
+      "id": "timing-principle-mastery",
+      "name": "Timing Mastery",
+      "domain": "animation",
+      "category": "11-by-principle-focus",
+      "description": "Use when determining animation durations, controlling pacing, establishing rhythm, or making motion feel appropriately weighted and emotionally resonant.",
+      "path": "skills/animation/timing-principle-mastery/SKILL.md"
+    },
+    {
+      "id": "transition-sequences",
+      "name": "Transition Sequence Animations",
+      "domain": "animation",
+      "category": "05-by-animation-type",
+      "description": "Use when orchestrating multi-step animations - page transitions, onboarding flows, wizard steps, complex reveals, or any choreographed animation sequence.",
+      "path": "skills/animation/transition-sequences/SKILL.md"
+    },
+    {
+      "id": "travel-hospitality",
+      "name": "Travel & Hospitality Animation Principles",
+      "domain": "animation",
+      "category": "08-by-industry",
+      "description": "Use when designing animations for travel booking, hospitality apps, tourism platforms, or vacation planning experiences",
+      "path": "skills/animation/travel-hospitality/SKILL.md"
+    },
+    {
+      "id": "troubleshooting",
+      "name": "Animation Troubleshooting Guide",
+      "domain": "animation",
+      "category": "04-by-skill-level",
+      "description": "Use when animation feels wrong and you need to diagnose which principle is failing or being misapplied",
+      "path": "skills/animation/troubleshooting/SKILL.md"
+    },
+    {
+      "id": "trust-reliability",
+      "name": "Trust & Reliability Animation",
+      "domain": "animation",
+      "category": "06-by-emotional-outcome",
+      "description": "Use when creating animations that build user confidence, establish credibility, and communicate dependability.",
+      "path": "skills/animation/trust-reliability/SKILL.md"
+    },
+    {
+      "id": "universal-elements",
+      "name": "Universal Element Animation Principles",
+      "domain": "animation",
+      "category": "07-by-ui-element",
+      "description": "Use when animating any UI element not covered by specific skills, or when applying general animation principles across multiple element types",
+      "path": "skills/animation/universal-elements/SKILL.md"
+    },
+    {
+      "id": "universal-emotion",
+      "name": "Universal Emotion Animation Framework",
+      "domain": "animation",
+      "category": "06-by-emotional-outcome",
+      "description": "Use when you need to achieve any emotional outcome through animation\u2014provides a framework for mapping Disney principles to any target emotion.",
+      "path": "skills/animation/universal-emotion/SKILL.md"
+    },
+    {
+      "id": "universal-fallback",
+      "name": "Universal Animation Principles",
+      "domain": "animation",
+      "category": "01-by-domain",
+      "description": "Use when the animation domain is unclear or spans multiple contexts\u2014provides general-purpose Disney animation principle guidance.",
+      "path": "skills/animation/universal-fallback/SKILL.md"
+    },
+    {
+      "id": "universal-industry",
+      "name": "Universal Animation Principles",
+      "domain": "animation",
+      "category": "08-by-industry",
+      "description": "Use when designing animations for any industry or when industry-specific guidelines do not apply",
+      "path": "skills/animation/universal-industry/SKILL.md"
+    },
+    {
+      "id": "universal-mindset",
+      "name": "Universal Animator Mindset",
+      "domain": "animation",
+      "category": "02-by-thinking-style",
+      "description": "Use when approaching any animation task\u2014establishing foundational thinking patterns, teaching animation principles, or when none of the specialized thinking styles quite fit the situation.",
+      "path": "skills/animation/universal-mindset/SKILL.md"
+    },
+    {
+      "id": "universal-patterns",
+      "name": "Universal Animation Patterns",
+      "domain": "animation",
+      "category": "05-by-animation-type",
+      "description": "Use when creating any animation type - provides foundational timing, easing, and principle application that applies to all motion in interfaces.",
+      "path": "skills/animation/universal-patterns/SKILL.md"
+    },
+    {
+      "id": "universal-practitioner",
+      "name": "Universal Practitioner: Animation Principles for Everyone",
+      "domain": "animation",
+      "category": "03-by-role-persona",
+      "description": "Use when applying animation principles in any context, for any role, or when a general understanding of Disney's 12 principles is needed.",
+      "path": "skills/animation/universal-practitioner/SKILL.md"
+    },
+    {
+      "id": "universal-reference",
+      "name": "Animation Principles - Universal Reference",
+      "domain": "animation",
+      "category": "04-by-skill-level",
+      "description": "Use when discussing animation principles with users of unknown skill level, or when providing a balanced reference that works for any experience level",
+      "path": "skills/animation/universal-reference/SKILL.md"
+    },
+    {
+      "id": "universal-solutions",
+      "name": "Universal Animation Solutions",
+      "domain": "animation",
+      "category": "12-by-problem-type",
+      "description": "Use when facing any animation problem as a comprehensive diagnostic framework",
+      "path": "skills/animation/universal-solutions/SKILL.md"
+    },
+    {
+      "id": "universal-timing",
+      "name": "Universal Timing Principles",
+      "domain": "animation",
+      "category": "10-by-time-scale",
+      "description": "Use when learning animation timing fundamentals - principles that apply regardless of duration, the foundational rules that scale across all time ranges",
+      "path": "skills/animation/universal-timing/SKILL.md"
+    },
+    {
+      "id": "universal-tool",
+      "name": "Universal Animation Principles",
+      "domain": "animation",
+      "category": "09-by-tool-framework",
+      "description": "Use when implementing Disney's 12 animation principles with any animation tool or framework",
+      "path": "skills/animation/universal-tool/SKILL.md"
+    },
+    {
+      "id": "urgency-action",
+      "name": "Urgency & Action Animation",
+      "domain": "animation",
+      "category": "06-by-emotional-outcome",
+      "description": "Use when creating animations that prompt immediate user action, highlight time-sensitivity, or drive conversions.",
+      "path": "skills/animation/urgency-action/SKILL.md"
+    },
+    {
+      "id": "user-feedback-clarity",
+      "name": "User Feedback Clarity",
+      "domain": "animation",
+      "category": "12-by-problem-type",
+      "description": "Use when users don't notice feedback, miss state changes, or can't tell if their action worked",
+      "path": "skills/animation/user-feedback-clarity/SKILL.md"
+    },
+    {
+      "id": "ux-friction",
+      "name": "UX Friction",
+      "domain": "animation",
+      "category": "12-by-problem-type",
+      "description": "Use when animation causes user confusion, delays task completion, or creates frustration",
+      "path": "skills/animation/ux-friction/SKILL.md"
+    },
+    {
+      "id": "ux-researcher",
+      "name": "UX Researcher: Animation & User Experience",
+      "domain": "animation",
+      "category": "03-by-role-persona",
+      "description": "Use when evaluating animation usability, conducting motion studies, or when researching how animation affects user perception and task completion.",
+      "path": "skills/animation/ux-researcher/SKILL.md"
+    },
+    {
+      "id": "video-motion-graphics",
+      "name": "Video Motion Graphics",
+      "domain": "animation",
+      "category": "01-by-domain",
+      "description": "Use when creating After Effects compositions, Premiere Pro motion, video titles, explainer videos, or broadcast motion graphics.",
+      "path": "skills/animation/video-motion-graphics/SKILL.md"
+    },
+    {
+      "id": "web-motion-design",
+      "name": "Web Motion Design",
+      "domain": "animation",
+      "category": "01-by-domain",
+      "description": "Use when building CSS animations, JavaScript transitions, React/Vue motion, or any browser-based animation work.",
+      "path": "skills/animation/web-motion-design/SKILL.md"
+    }
+  ]
+}
