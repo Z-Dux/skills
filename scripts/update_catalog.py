@@ -34,6 +34,10 @@ DESIGN_ENG_CATEGORIES = {
     "animation-vocabulary": "reference"
 }
 
+FRONTEND_DESIGN_CATEGORIES = {
+    "design-taste-frontend": "anti-slop-web-design"
+}
+
 def generate_catalog():
     catalog = []
     domains = [d for d in sorted(os.listdir(SKILLS_DIR)) if os.path.isdir(os.path.join(SKILLS_DIR, d))]
@@ -73,6 +77,8 @@ def generate_catalog():
             category = category_map.get(skill_name)
             if not category and domain == "design-engineering":
                 category = DESIGN_ENG_CATEGORIES.get(skill_name, "general")
+            elif not category and domain == "frontend-design":
+                category = FRONTEND_DESIGN_CATEGORIES.get(skill_name, "anti-slop-web-design")
             elif not category:
                 category = "general"
 

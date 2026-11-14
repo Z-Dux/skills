@@ -8,6 +8,10 @@
     {
       "path": "skills/design-engineering",
       "description": "Emil Kowalski's Design Engineering, UI motion, and interaction craft skills"
+    },
+    {
+      "path": "skills/frontend-design",
+      "description": "Taste Skill (tasteskill 2.5) - anti-slop frontend web design, art direction, and finish gate"
     }
   ]
 }

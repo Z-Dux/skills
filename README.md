@@ -1,7 +1,7 @@
 # AI Agent Skills Repository
 
-[![Skills](https://img.shields.io/badge/Skills-163-blue.svg)](catalog.json)
-[![Domains](https://img.shields.io/badge/Domains-2%20(Animation%2C%20Design%20Engineering)-emerald.svg)](#-domains-overview)
+[![Skills](https://img.shields.io/badge/Skills-164-blue.svg)](catalog.json)
+[![Domains](https://img.shields.io/badge/Domains-3%20(Animation%2C%20Design%20Engineering%2C%20Frontend%20Design)-emerald.svg)](#-domains-overview)
 [![Engine](https://img.shields.io/badge/Engine-Antigravity%20%7C%20Claude%20Code-purple.svg)](https://github.com)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
@@ -19,34 +19,43 @@ skills-repo/
 │   ├── skills.json                   # Workspace skill discovery paths
 │   └── rules/                        # Workspace-active agent guidelines
 │       ├── AGENTS.md                 # Universal Disney animation principles guide
-│       └── design-engineering.md     # Emil Kowalski's animation & craft standards
+│       ├── design-engineering.md     # Emil Kowalski's animation & craft standards
+│       └── taste-frontend.md         # Taste Skill (tasteskill) 9 House Rules
 ├── skills/                           # Domain-partitioned skills catalog
 │   ├── animation/                    # 144 skills: Disney's 12 Animation Principles
 │   │   ├── 3d-spatial/SKILL.md
 │   │   ├── squash-stretch-mastery/SKILL.md
 │   │   └── ... (144 self-contained skill packages)
-│   └── design-engineering/           # 19 skills: Emil Kowalski's Design Engineering
-│       ├── animate/SKILL.md
-│       ├── apple-design/SKILL.md
-│       ├── choreograph/SKILL.md
-│       ├── emil-design-eng/SKILL.md
-│       ├── gestures/SKILL.md
-│       └── ... (19 craft & motion skills with recipes and standards)
+│   ├── design-engineering/           # 19 skills: Emil Kowalski's Design Engineering
+│   │   ├── animate/SKILL.md
+│   │   ├── apple-design/SKILL.md
+│   │   ├── choreograph/SKILL.md
+│   │   ├── emil-design-eng/SKILL.md
+│   │   ├── gestures/SKILL.md
+│   │   └── ... (19 craft & motion skills with recipes and standards)
+│   └── frontend-design/              # Anti-Slop Frontend Web Design (tasteskill 2.5)
+│       └── design-taste-frontend/    # Complete Taste Skill package
+│           ├── SKILL.md              # Main entry point & gate hook
+│           ├── assets/               # Curated SVGs, fonts, and brand assets
+│           ├── library/              # Section components & templates
+│           ├── references/           # 22 deep-dive guides (system, layout, photos, copy, gate)
+│           └── scripts/              # Browser inspection & validation tools (gate.mjs, etc.)
 ├── docs/                             # Deep-dive documentation & cross-indexes
 │   ├── animation/                    # 12-category animation taxonomy & index
-│   └── design-engineering/           # UI & Performance cheatsheets & catalog
-│       ├── performance-cheatsheet.md
-│       ├── ui-cheatsheet.md
-│       └── index.md
+│   ├── design-engineering/           # UI & Performance cheatsheets & catalog
+│   └── frontend-design/              # Anti-slop philosophy, 9 House Rules, and prompt guide
 ├── rules/                            # General & framework-specific agent rules
 │   ├── AGENTS.md                     # Universal agent rules
 │   ├── animation-principles.md       # Disney animation principles reference
-│   └── design-engineering.md         # Design engineering standards reference
+│   ├── design-engineering.md         # Design engineering standards reference
+│   └── taste-frontend.md             # Taste Skill anti-slop frontend house rules
 ├── scripts/                          # CI & maintenance automation
 │   ├── validate_skills.py            # Frontmatter & schema integrity validator
 │   ├── update_catalog.py             # Automated catalog.json generator
-│   └── import_emil_skills.py         # Design engineering import utility
-├── catalog.json                      # Machine-readable registry of all 163 skills
+│   ├── import_animation.py           # Animation import utility
+│   ├── import_emil_skills.py         # Design engineering import utility
+│   └── import_taste_skill.py         # Taste skill import utility
+├── catalog.json                      # Machine-readable registry of all 164 skills
 ├── skills.json                       # Portable skills manifest
 ├── CONTRIBUTING.md                   # Skill authoring guide & quality standards
 └── LICENSE                           # MIT License
@@ -56,7 +65,19 @@ skills-repo/
 
 ## 🎨 Domains Overview
 
-### 1. Design Engineering (`skills/design-engineering/`)
+### 1. Frontend Web Design (`skills/frontend-design/`)
+
+Imported from [tasteskill.dev](https://www.tasteskill.dev/docs) and [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill):
+
+- **`design-taste-frontend`** (**tasteskill 2.5**): The definitive anti-slop frontend framework for AI agents. Builds high-craft company and product websites at the standard of **figma.com** and **x.ai**.
+  - **The 9 House Rules**: No captions under visuals, 1440x900 screen-locked sections, equal left/right margins, restrained hover lifts (`translateY(-2px)`), authentic product UI, real full-color icons, distinct non-marketing copy, and real browser verification.
+  - **22 Reference Guides**: In-depth architecture specifications in [references/](skills/frontend-design/design-taste-frontend/references) covering layout grid v4, moments, motion curves, typography scales, photo licensing, and copy registers.
+  - **Automated Finish Gate**: Scripts in [scripts/](skills/frontend-design/design-taste-frontend/scripts) (`gate.mjs`, `consistency.mjs`, `shoot.mjs`) that spin up a headless Chrome/Edge instance to inspect live rendered DOM, catch layout shifts, and guarantee visual craft before finishing.
+  - See [docs/frontend-design/index.md](docs/frontend-design/index.md) for full guide and prompt examples.
+
+---
+
+### 2. Design Engineering (`skills/design-engineering/`)
 
 Curated from [Emil Kowalski's Skills for Designers and Engineers](https://github.com/emilkowalski/skills) (ex-Vercel, Linear, creator of [Sonner](https://sonner.emilkowal.ski)). These 19 skills instill taste, high craft, fluid interaction physics, and performance discipline into agentic UI workflows:
 
@@ -78,7 +99,7 @@ Curated from [Emil Kowalski's Skills for Designers and Engineers](https://github
 
 ---
 
-### 2. Animation Principles (`skills/animation/`)
+### 3. Animation Principles (`skills/animation/`)
 
 Imported from the **Animation Principles** collection (originally created by Dylan Tarre), this domain teaches AI agents how to apply Disney's 12 Principles of Animation across 144 focused skills:
 
@@ -108,7 +129,7 @@ Full animation taxonomy and cross-references are documented in [docs/animation/i
 This repository includes native Antigravity workspace configuration in `.agents/skills.json` and active rules in `.agents/rules/`.
 
 1. **Open directly in Antigravity**:
-   Simply open this repository directory in Antigravity. All skills across both `animation` and `design-engineering` are immediately registered on startup.
+   Simply open this repository directory in Antigravity. All skills across `animation`, `design-engineering`, and `frontend-design` are immediately registered on startup.
 
 2. **Reference from another project**:
    Add this repository's domain paths to your project's `.agents/skills.json`:
@@ -116,7 +137,8 @@ This repository includes native Antigravity workspace configuration in `.agents/
    {
      "entries": [
        { "path": "D:/skills/skills/animation" },
-       { "path": "D:/skills/skills/design-engineering" }
+       { "path": "D:/skills/skills/design-engineering" },
+       { "path": "D:/skills/skills/frontend-design" }
      ]
    }
    ```
@@ -127,7 +149,8 @@ This repository includes native Antigravity workspace configuration in `.agents/
    {
      "entries": [
        { "path": "D:/skills/skills/animation" },
-       { "path": "D:/skills/skills/design-engineering" }
+       { "path": "D:/skills/skills/design-engineering" },
+       { "path": "D:/skills/skills/frontend-design" }
      ]
    }
    ```
@@ -137,7 +160,7 @@ This repository includes native Antigravity workspace configuration in `.agents/
 Skills conform to standard `SKILL.md` format. To import skills into Claude Code:
 ```bash
 # Symlink or copy desired skills to your project
-cp -r D:/skills/skills/design-engineering/<skill-name> ~/.claude/skills/
+cp -r D:/skills/skills/frontend-design/design-taste-frontend ~/.claude/skills/
 ```
 
 ### Direct Agent Invocation
@@ -145,7 +168,7 @@ cp -r D:/skills/skills/design-engineering/<skill-name> ~/.claude/skills/
 Instruct your agent to activate skills by name:
 
 ```text
-"Use the emil-design-eng and gestures skills to build an interruptible drawer component with 1:1 finger tracking."
+"Use the design-taste-frontend skill to redesign our SaaS landing page with one section per screen, real photography, and equal content margins."
 ```
 
 ---
@@ -184,5 +207,6 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for full instructions on authoring new sk
 ## 📄 License & Attributions
 
 This repository is licensed under the [MIT License](LICENSE).
+- **Taste Skill (Anti-Slop Frontend)**: Copyright (c) 2026 [Leonxlnx](https://github.com/Leonxlnx/taste-skill)
 - **Design Engineering Collection**: Copyright (c) 2026 [Emil Kowalski](https://github.com/emilkowalski/skills)
 - **Animation Principles Collection**: Copyright (c) 2024-2026 [Dylan Tarre](https://github.com/dylantarre/animation-principles)

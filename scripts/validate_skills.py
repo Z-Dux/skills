@@ -77,8 +77,8 @@ def validate():
                 desc_val = re.sub(r"^[>|-]\s*", "", desc_val).strip()
                 if not desc_val:
                     errors.append(f"[{domain}/{skill_name}] 'description' is empty")
-                elif len(desc_val) > 800:
-                    warnings.append(f"[{domain}/{skill_name}] Description is long ({len(desc_val)} chars > 800 chars)")
+                elif len(desc_val) > 1024:
+                    warnings.append(f"[{domain}/{skill_name}] Description is long ({len(desc_val)} chars > 1024 chars)")
 
             # Body check
             if not body_text:

@@ -1,9 +1,10 @@
 {
   "version": "1.0.0",
-  "total_skills": 163,
+  "total_skills": 164,
   "domains": [
     "animation",
-    "design-engineering"
+    "design-engineering",
+    "frontend-design"
   ],
   "skills": [
     {
@@ -1309,6 +1310,14 @@
       "category": "platform-native",
       "description": "How to write modern Swift well \u2014 modeling with value types, Swift 6 data-race safety and approachable concurrency (@concurrent, main-actor-by-default, actors, task groups), protocols and generics (some vs any), API design, performance and ARC, Swift Testing, macros, and the modern language features agents don't know about yet. Use when writing, reviewing, or migrating Swift, or when a concurrency error, a hang, a data race, a retain cycle, or a performance problem needs fixing.",
       "path": "skills/design-engineering/write-swift/SKILL.md"
+    },
+    {
+      "id": "design-taste-frontend",
+      "name": "tasteskill 2.5",
+      "domain": "frontend-design",
+      "category": "anti-slop-web-design",
+      "description": "-\n  tasteskill 2.5.1, the anti-slop frontend skill. Builds professional company websites at the level\n  of figma.com and x.ai: plain copy in a voice of its own, one system, one section per screen,\n  equal edges, real photographs and real product UI (licensed stand-in photographs when the client\n  has none; a product render only when the brief asks for 3D), a hero entrance and one or two dealt\n  moments on every page, shader effects and scenes only on tech, gaming and software pages, quiet\n  micro-interactions, and a checker and finish gate that enforce it in a real browser. Use this\n  whenever you build, design, redesign, restyle, polish or review a landing page, company,\n  product, shop, cafe, hotel, studio, SaaS, AI, developer-tool or game site, as static HTML/CSS or\n  inside an existing React, Next.js, Vue, Svelte, Astro or Tailwind project, or when the user says\n  a page looks generic, templated or \"AI-made\".",
+      "path": "skills/frontend-design/design-taste-frontend/SKILL.md"
     }
   ]
 }
