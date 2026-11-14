@@ -12,6 +12,28 @@ SKILLS_DIR = os.path.join(REPO_ROOT, "skills")
 DOCS_DIR = os.path.join(REPO_ROOT, "docs")
 CATALOG_FILE = os.path.join(REPO_ROOT, "catalog.json")
 
+DESIGN_ENG_CATEGORIES = {
+    "animate": "motion-implementation",
+    "animate-expo": "mobile-motion",
+    "choreograph": "motion-implementation",
+    "gestures": "motion-implementation",
+    "animation-performance": "performance",
+    "emil-design-eng": "design-philosophy",
+    "learn-taste": "design-philosophy",
+    "apple-design": "design-philosophy",
+    "review-animations": "audit-review",
+    "improve-animations": "audit-review",
+    "find-animation-opportunities": "audit-review",
+    "remove-animations": "audit-review",
+    "break-ui": "testing-iteration",
+    "prototype": "testing-iteration",
+    "pick-ui-library": "libraries-stack",
+    "ask-sonner": "libraries-stack",
+    "mobile-native": "platform-native",
+    "write-swift": "platform-native",
+    "animation-vocabulary": "reference"
+}
+
 def generate_catalog():
     catalog = []
     domains = [d for d in sorted(os.listdir(SKILLS_DIR)) if os.path.isdir(os.path.join(SKILLS_DIR, d))]
@@ -48,11 +70,17 @@ def generate_catalog():
             desc = re.sub(r"^[>|-]\s*", "", desc).strip()
             title = title_match.group(1).strip() if title_match else skill_name
 
+            category = category_map.get(skill_name)
+            if not category and domain == "design-engineering":
+                category = DESIGN_ENG_CATEGORIES.get(skill_name, "general")
+            elif not category:
+                category = "general"
+
             catalog.append({
                 "id": skill_name,
                 "name": title,
                 "domain": domain,
-                "category": category_map.get(skill_name, "general"),
+                "category": category,
                 "description": desc,
                 "path": f"skills/{domain}/{skill_name}/SKILL.md"
             })
@@ -67,7 +95,7 @@ def generate_catalog():
     with open(CATALOG_FILE, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2)
 
-    print(f"Successfully generated catalog.json with {len(catalog)} skills across {len(domains)} domain(s).")
+    print(f"Successfully generated catalog.json with {len(catalog)} skills across {len(domains)} domain(s): {', '.join(domains)}.")
 
 if __name__ == "__main__":
     generate_catalog()

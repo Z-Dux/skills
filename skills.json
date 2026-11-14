@@ -2,7 +2,12 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "entries": [
     {
-      "path": "skills/animation"
+      "path": "skills/animation",
+      "description": "Disney's 12 Animation Principles and motion design skills"
+    },
+    {
+      "path": "skills/design-engineering",
+      "description": "Emil Kowalski's Design Engineering, UI motion, and interaction craft skills"
     }
   ]
 }
