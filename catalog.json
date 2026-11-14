@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "total_skills": 164,
+  "total_skills": 165,
   "domains": [
     "animation",
     "design-engineering",
@@ -1313,11 +1313,19 @@
     },
     {
       "id": "design-taste-frontend",
-      "name": "tasteskill 2.5",
+      "name": "Taste Skill (tasteskill 2.5)",
       "domain": "frontend-design",
       "category": "anti-slop-web-design",
       "description": "-\n  tasteskill 2.5.1, the anti-slop frontend skill. Builds professional company websites at the level\n  of figma.com and x.ai: plain copy in a voice of its own, one system, one section per screen,\n  equal edges, real photographs and real product UI (licensed stand-in photographs when the client\n  has none; a product render only when the brief asks for 3D), a hero entrance and one or two dealt\n  moments on every page, shader effects and scenes only on tech, gaming and software pages, quiet\n  micro-interactions, and a checker and finish gate that enforce it in a real browser. Use this\n  whenever you build, design, redesign, restyle, polish or review a landing page, company,\n  product, shop, cafe, hotel, studio, SaaS, AI, developer-tool or game site, as static HTML/CSS or\n  inside an existing React, Next.js, Vue, Svelte, Astro or Tailwind project, or when the user says\n  a page looks generic, templated or \"AI-made\".",
       "path": "skills/frontend-design/design-taste-frontend/SKILL.md"
+    },
+    {
+      "id": "impeccable",
+      "name": "Impeccable Design Vocabulary",
+      "domain": "frontend-design",
+      "category": "design-vocabulary-review",
+      "description": "Use when the user wants to design, redesign, shape, critique, audit, polish, simplify, harden, animate, or otherwise improve a frontend interface: websites, landing pages, dashboards, product UI, components, forms, settings, onboarding, empty states, and native iOS or Android screens. Handles UX review, hierarchy, layout, typography, color, motion, UX copy, accessibility, responsive behavior, edge cases, and capturing or documenting design systems (DESIGN.md, tokens). Also for making bland UI bolder, loud UI quieter, or ambitious visual effects. Not for backend-only or non-UI tasks.",
+      "path": "skills/frontend-design/impeccable/SKILL.md"
     }
   ]
 }

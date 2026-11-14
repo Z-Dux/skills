@@ -1,9 +1,9 @@
 # AI Agent Skills Repository
 
-[![Skills](https://img.shields.io/badge/Skills-164-blue.svg)](catalog.json)
+[![Skills](https://img.shields.io/badge/Skills-165-blue.svg)](catalog.json)
 [![Domains](https://img.shields.io/badge/Domains-3%20(Animation%2C%20Design%20Engineering%2C%20Frontend%20Design)-emerald.svg)](#-domains-overview)
 [![Engine](https://img.shields.io/badge/Engine-Antigravity%20%7C%20Claude%20Code-purple.svg)](https://github.com)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![License: MIT / Apache 2.0](https://img.shields.io/badge/License-MIT%20%2F%20Apache%202.0-yellow.svg)](LICENSE)
 
 A centralized, professional AI agent skills repository designed to house, organize, and version procedural skills and expert runbooks for AI agents.
 
@@ -20,7 +20,8 @@ skills-repo/
 │   └── rules/                        # Workspace-active agent guidelines
 │       ├── AGENTS.md                 # Universal Disney animation principles guide
 │       ├── design-engineering.md     # Emil Kowalski's animation & craft standards
-│       └── taste-frontend.md         # Taste Skill (tasteskill) 9 House Rules
+│       ├── taste-frontend.md         # Taste Skill (tasteskill) 9 House Rules
+│       └── impeccable-craft.md       # Impeccable Craft Floor & anti-slop rules
 ├── skills/                           # Domain-partitioned skills catalog
 │   ├── animation/                    # 144 skills: Disney's 12 Animation Principles
 │   │   ├── 3d-spatial/SKILL.md
@@ -33,47 +34,64 @@ skills-repo/
 │   │   ├── emil-design-eng/SKILL.md
 │   │   ├── gestures/SKILL.md
 │   │   └── ... (19 craft & motion skills with recipes and standards)
-│   └── frontend-design/              # Anti-Slop Frontend Web Design (tasteskill 2.5)
-│       └── design-taste-frontend/    # Complete Taste Skill package
-│           ├── SKILL.md              # Main entry point & gate hook
-│           ├── assets/               # Curated SVGs, fonts, and brand assets
-│           ├── library/              # Section components & templates
-│           ├── references/           # 22 deep-dive guides (system, layout, photos, copy, gate)
-│           └── scripts/              # Browser inspection & validation tools (gate.mjs, etc.)
+│   └── frontend-design/              # Anti-Slop Frontend & Interface Design
+│       ├── design-taste-frontend/    # Taste Skill (tasteskill 2.5) package
+│       │   ├── SKILL.md              # Main entry point & gate hook
+│       │   ├── assets/               # Curated SVGs, fonts, and brand assets
+│       │   ├── references/           # 22 deep-dive guides (system, layout, photos, copy)
+│       │   └── scripts/              # Browser inspection & validation tools (gate.mjs)
+│       └── impeccable/               # Impeccable Design Vocabulary (v4.9)
+│           ├── SKILL.md              # Main orchestrator & surface mode routing
+│           ├── reference/            # 24 command playbooks (bolder, critique, audit, polish)
+│           ├── agents/               # Role definitions & agent configs
+│           └── scripts/              # Launcher & engine tools (impeccable.cmd, live-browser)
 ├── docs/                             # Deep-dive documentation & cross-indexes
 │   ├── animation/                    # 12-category animation taxonomy & index
 │   ├── design-engineering/           # UI & Performance cheatsheets & catalog
-│   └── frontend-design/              # Anti-slop philosophy, 9 House Rules, and prompt guide
+│   └── frontend-design/              # Anti-slop philosophy, Impeccable commands, and guides
 ├── rules/                            # General & framework-specific agent rules
 │   ├── AGENTS.md                     # Universal agent rules
 │   ├── animation-principles.md       # Disney animation principles reference
 │   ├── design-engineering.md         # Design engineering standards reference
-│   └── taste-frontend.md             # Taste Skill anti-slop frontend house rules
+│   ├── taste-frontend.md             # Taste Skill anti-slop frontend house rules
+│   └── impeccable-craft.md           # Impeccable Craft Floor rules
 ├── scripts/                          # CI & maintenance automation
 │   ├── validate_skills.py            # Frontmatter & schema integrity validator
 │   ├── update_catalog.py             # Automated catalog.json generator
 │   ├── import_animation.py           # Animation import utility
 │   ├── import_emil_skills.py         # Design engineering import utility
-│   └── import_taste_skill.py         # Taste skill import utility
-├── catalog.json                      # Machine-readable registry of all 164 skills
+│   ├── import_taste_skill.py         # Taste skill import utility
+│   └── import_impeccable.py          # Impeccable import utility
+├── catalog.json                      # Machine-readable registry of all 165 skills
 ├── skills.json                       # Portable skills manifest
 ├── CONTRIBUTING.md                   # Skill authoring guide & quality standards
-└── LICENSE                           # MIT License
+└── LICENSE                           # MIT / Apache 2.0 Licenses
 ```
 
 ---
 
 ## 🎨 Domains Overview
 
-### 1. Frontend Web Design (`skills/frontend-design/`)
+### 1. Frontend & Interface Design (`skills/frontend-design/`)
 
-Imported from [tasteskill.dev](https://www.tasteskill.dev/docs) and [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill):
+This domain unites the two premier design craft and anti-slop frameworks in the AI developer ecosystem:
 
-- **`design-taste-frontend`** (**tasteskill 2.5**): The definitive anti-slop frontend framework for AI agents. Builds high-craft company and product websites at the standard of **figma.com** and **x.ai**.
-  - **The 9 House Rules**: No captions under visuals, 1440x900 screen-locked sections, equal left/right margins, restrained hover lifts (`translateY(-2px)`), authentic product UI, real full-color icons, distinct non-marketing copy, and real browser verification.
-  - **22 Reference Guides**: In-depth architecture specifications in [references/](skills/frontend-design/design-taste-frontend/references) covering layout grid v4, moments, motion curves, typography scales, photo licensing, and copy registers.
-  - **Automated Finish Gate**: Scripts in [scripts/](skills/frontend-design/design-taste-frontend/scripts) (`gate.mjs`, `consistency.mjs`, `shoot.mjs`) that spin up a headless Chrome/Edge instance to inspect live rendered DOM, catch layout shifts, and guarantee visual craft before finishing.
-  - See [docs/frontend-design/index.md](docs/frontend-design/index.md) for full guide and prompt examples.
+#### **Impeccable** (`impeccable`)
+Authored by [Paul Bakaus](https://github.com/pbakaus/impeccable) (ex-Google, creator of jQuery UI and AMP). Gives agents a concrete 24-verb design steering vocabulary and heuristic review engine:
+- **Steer**: `bolder`, `quieter`, `distill`, `colorize`, `typeset`, `layout`, `animate`, `delight`, `overdrive`.
+- **Review & Audit**: `critique` (scored UX review), `audit` (P0-P3 prioritized technical report).
+- **Finish**: `polish`, `harden`, `clarify`, `adapt`, `optimize`, `onboard`.
+- **Iterate**: `live` (in-browser element hot-swapping), `generate` (variant synthesis).
+- **4 Modes**: Scales ambition across *Persuade* (landing pages), *Operate* (apps/dashboards), *Read* (docs), and *Experience* (portfolios).
+- **The Craft Floor**: 62 deterministic anti-slop checks ([rules/impeccable-craft.md](rules/impeccable-craft.md)).
+
+#### **Taste Skill** (`design-taste-frontend`)
+Authored by [Leonxlnx](https://github.com/Leonxlnx/taste-skill) ([tasteskill.dev](https://www.tasteskill.dev/docs)). Anti-slop landing page architecture for high-end company websites at the caliber of **figma.com** and **x.ai**:
+- **The 9 House Rules**: One section per screen (1440x900), no captions, equal margins, restrained hover lifts (`translateY(-2px)`), authentic product UI, real full-color icons, distinct non-marketing copy.
+- **22 Reference Guides**: In-depth layout systems, copy registers, and typography scales in [references/](skills/frontend-design/design-taste-frontend/references).
+- **Automated Finish Gate**: Real-browser Chrome DevTools Protocol inspection scripts in [scripts/](skills/frontend-design/design-taste-frontend/scripts).
+
+Full domain documentation is available in [docs/frontend-design/index.md](docs/frontend-design/index.md).
 
 ---
 
@@ -155,20 +173,16 @@ This repository includes native Antigravity workspace configuration in `.agents/
    }
    ```
 
-### In Claude Code / Open Agent Systems
-
-Skills conform to standard `SKILL.md` format. To import skills into Claude Code:
-```bash
-# Symlink or copy desired skills to your project
-cp -r D:/skills/skills/frontend-design/design-taste-frontend ~/.claude/skills/
-```
-
 ### Direct Agent Invocation
 
 Instruct your agent to activate skills by name:
 
 ```text
-"Use the design-taste-frontend skill to redesign our SaaS landing page with one section per screen, real photography, and equal content margins."
+"Use the impeccable skill to critique and polish this pricing card component."
+```
+
+```text
+"Use the design-taste-frontend skill to build a landing page for our edge runtime."
 ```
 
 ---
@@ -206,7 +220,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for full instructions on authoring new sk
 
 ## 📄 License & Attributions
 
-This repository is licensed under the [MIT License](LICENSE).
-- **Taste Skill (Anti-Slop Frontend)**: Copyright (c) 2026 [Leonxlnx](https://github.com/Leonxlnx/taste-skill)
-- **Design Engineering Collection**: Copyright (c) 2026 [Emil Kowalski](https://github.com/emilkowalski/skills)
-- **Animation Principles Collection**: Copyright (c) 2024-2026 [Dylan Tarre](https://github.com/dylantarre/animation-principles)
+- **Impeccable Design Vocabulary**: Copyright (c) 2026 [Paul Bakaus](https://github.com/pbakaus/impeccable) (Apache License 2.0)
+- **Taste Skill (Anti-Slop Frontend)**: Copyright (c) 2026 [Leonxlnx](https://github.com/Leonxlnx/taste-skill) (MIT License)
+- **Design Engineering Collection**: Copyright (c) 2026 [Emil Kowalski](https://github.com/emilkowalski/skills) (MIT License)
+- **Animation Principles Collection**: Copyright (c) 2024-2026 [Dylan Tarre](https://github.com/dylantarre/animation-principles) (MIT License)

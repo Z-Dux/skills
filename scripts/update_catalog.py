@@ -35,7 +35,13 @@ DESIGN_ENG_CATEGORIES = {
 }
 
 FRONTEND_DESIGN_CATEGORIES = {
-    "design-taste-frontend": "anti-slop-web-design"
+    "design-taste-frontend": "anti-slop-web-design",
+    "impeccable": "design-vocabulary-review"
+}
+
+SPECIAL_TITLES = {
+    "impeccable": "Impeccable Design Vocabulary",
+    "design-taste-frontend": "Taste Skill (tasteskill 2.5)"
 }
 
 def generate_catalog():
@@ -72,13 +78,20 @@ def generate_catalog():
 
             desc = desc_match.group(1).strip() if desc_match else ""
             desc = re.sub(r"^[>|-]\s*", "", desc).strip()
-            title = title_match.group(1).strip() if title_match else skill_name
+            desc = desc.strip('"\'')
+            
+            if skill_name in SPECIAL_TITLES:
+                title = SPECIAL_TITLES[skill_name]
+            elif title_match:
+                title = title_match.group(1).strip()
+            else:
+                title = skill_name
 
             category = category_map.get(skill_name)
             if not category and domain == "design-engineering":
                 category = DESIGN_ENG_CATEGORIES.get(skill_name, "general")
             elif not category and domain == "frontend-design":
-                category = FRONTEND_DESIGN_CATEGORIES.get(skill_name, "anti-slop-web-design")
+                category = FRONTEND_DESIGN_CATEGORIES.get(skill_name, "frontend-design")
             elif not category:
                 category = "general"
 
